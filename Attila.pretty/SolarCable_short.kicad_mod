@@ -1,0 +1,277 @@
+(footprint "SolarCable_short"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mount for solar cable")
+	(property "Reference" "REF**"
+		(at 6.35 0 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "634d0122-291a-484f-af71-c81760c4080a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolarCable_short"
+		(at 0 5.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1caf8e48-daff-480c-9095-2a3ba8966903")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0f28d83-f572-49e7-bfdb-dbb4fd462164")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06d8d365-2cac-41f8-961a-0fa505fc3719")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -7.6 9.4)
+		(end -7.6 -6.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f32c096b-3f69-4c62-98ff-914aba39e923")
+	)
+	(fp_line
+		(start 5 -8.9)
+		(end -5 -8.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c74ba38-2503-4816-b31a-235ffb9eb8e5")
+	)
+	(fp_line
+		(start 5 12)
+		(end -5 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "32f3dd68-f2e3-4955-890c-34688e335ba7")
+	)
+	(fp_line
+		(start 7.6 -6.4)
+		(end 7.6 9.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "27f2cc95-330d-46b5-bae7-afb0ea87b2a2")
+	)
+	(fp_arc
+		(start -7.6 -6.4)
+		(mid -6.817767 -8.188477)
+		(end -5 -8.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "789c3f89-986a-46f5-81f5-1c99e190328b")
+	)
+	(fp_arc
+		(start -5 12)
+		(mid -6.850227 11.250227)
+		(end -7.6 9.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0c41721e-2ede-4017-aff9-c87575d77965")
+	)
+	(fp_arc
+		(start 5 -8.9)
+		(mid 6.824786 -8.195778)
+		(end 7.6 -6.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "250f819c-1737-4c38-ad76-28f8a6a1f4ea")
+	)
+	(fp_arc
+		(start 7.6 9.4)
+		(mid 6.838478 11.238478)
+		(end 5 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e8c060ce-b096-4253-9e34-5a99678ef145")
+	)
+	(fp_text user "${VALUE}"
+		(at 0 -5.509598 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7e9ba2c4-addd-4c70-9e4a-a54ac74c4d23")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f31fd812-8b5c-4faf-8404-236c6782f781")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -5 9.4 180)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 0.5)
+		(uuid "4d66f2a9-5ca4-45c4-b697-9cbd3310545c")
+	)
+	(pad "" np_thru_hole circle
+		(at 5 9.4 180)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 0.5)
+		(uuid "f8806844-58c4-4fe8-947c-a3a4babe71e1")
+	)
+	(pad "1" thru_hole circle
+		(at -3.15 0)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a59995fb-1cf4-405c-9dd2-7f523302399c")
+	)
+	(pad "1" thru_hole circle
+		(at -2.227 -2.227)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ddb80dce-73d1-4083-8401-e0133582162f")
+	)
+	(pad "1" thru_hole circle
+		(at -2.227 2.227)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e1977aa0-7162-4ade-ba75-8ff676c1a986")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -3.15)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3fbb1ac1-bd89-40cd-8076-69766af52f02")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 180)
+		(size 9 9)
+		(drill 3.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35ae90ef-356a-42ad-9c45-a2ab284591cf")
+	)
+	(pad "1" thru_hole circle
+		(at 0 3.15)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "179991e2-84f4-4115-b148-bbdec468ef24")
+	)
+	(pad "1" thru_hole circle
+		(at 2.227 -2.227)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d58560f-f8c9-41aa-9426-1fee40108c52")
+	)
+	(pad "1" thru_hole circle
+		(at 2.227 2.227)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e44fd469-b99c-4f54-a52a-f1b1d56afb73")
+	)
+	(pad "1" thru_hole circle
+		(at 3.15 0)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ddc4d8d4-2be1-49f2-835a-8d02bdefc266")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/Attila/SolarCable_short.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD7_3DMODEL_DIR}/Attila/SolarCable_short.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

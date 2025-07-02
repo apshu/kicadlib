@@ -1,0 +1,154 @@
+(footprint "PLT133_T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Fiber optic transmitter")
+	(property "Reference" "REF**"
+		(at 0 -1.854933 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eb988080-ffd3-48ab-af4f-ee6fef183354")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PLT133_T"
+		(at 0.254 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ddc6521e-3ba0-45eb-a772-2348a9d81482")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "367cf65a-e772-4698-bbf8-96cc08d0053d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "16Mb/s FIB.OPTIC TRANSMITTER UNIT 660nm, TTL COMPATIBLE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8de24228-65aa-4cfe-ad81-a2d4e6c156d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LomexID" "38-03-33"
+		(at 0 1.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1661dfc1-97d0-46b3-8859-3b9dd269efb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.75 8.65)
+		(end 5.75 -2.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6fc5635c-0d8b-4707-8549-4ff12ac8e1d3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aef16da0-51b1-4cb4-80e7-2936d6e10d88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3.81 3.95)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "80265081-df87-4c2b-a38b-6b26ad8424e7")
+	)
+	(pad "" np_thru_hole circle
+		(at 3.81 3.95)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "654e71a1-7587-46ca-a8d9-94ead701c4fd")
+	)
+	(pad "1" thru_hole rect
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f21bb143-3b7b-4666-a12f-d4dd521a007b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d51a835a-cc8b-41e1-a261-25d85ba99441")
+	)
+	(pad "3" thru_hole circle
+		(at -2.54 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c94cac7e-d0ca-4dbf-9227-c1290fc6637c")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Attila/PLT133_T.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Attila/PLT133_T.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

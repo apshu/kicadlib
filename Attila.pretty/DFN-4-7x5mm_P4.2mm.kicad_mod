@@ -1,0 +1,236 @@
+(footprint "DFN-4-7x5mm_P4.2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DFN package for oscillator")
+	(property "Reference" "REF**"
+		(at 0.4 -4.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1b66c4bf-5016-4180-a465-22688a549913")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DFN-4-7x5mm_P4.2mm"
+		(at 1.1 4.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "821d1a99-fb3f-4749-8521-ba8f64f16533")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.762 -8.596 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3218ed9-2583-4e0b-baa6-29e67ce384dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.762 -8.596 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2693ea05-cbad-494c-b2c2-4f9ba782959a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 3.8)
+		(end 3.2 3.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "82f056ea-b209-4139-997f-d02b310b1135")
+	)
+	(fp_line
+		(start -3 -3.8)
+		(end 3.2 -3.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77743865-a73d-4492-aad5-d8191def7699")
+	)
+	(fp_poly
+		(pts
+			(xy -3.3 -3.8) (xy -3.78 -3.8) (xy -3.3 -4.28) (xy -3.3 -3.8)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "46b5c0b4-0a32-4581-a4d0-b8caa51d2d3c")
+	)
+	(fp_rect
+		(start -3.3 -3.6)
+		(end 3.3 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d73f3815-56d5-4919-8e96-d11840f660ed")
+	)
+	(fp_line
+		(start -2.5 -3)
+		(end -2.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fb80ef82-9385-4134-84b9-eaf2a476b11e")
+	)
+	(fp_line
+		(start -2.5 -3)
+		(end -2 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "0a01c37b-4653-4481-9863-772b032424d1")
+	)
+	(fp_line
+		(start 2.5 -3.5)
+		(end -2 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "abf79a8e-4592-4353-9b41-8fd73a261592")
+	)
+	(fp_line
+		(start 2.5 -3.5)
+		(end 2.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f622f82c-7a79-4638-b13a-6e32aea9f72a")
+	)
+	(fp_line
+		(start 2.5 3.5)
+		(end -2.5 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4a2f66e7-6da6-4ea9-92ca-5c760b0a8a3e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 -0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5e1cb46d-31ea-488e-81a1-6fbd35397fbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "cea91ac8-60af-43f2-9cef-372d50574fac")
+	)
+	(pad "2" smd rect
+		(at -2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "68f0a7d5-d3a4-42f1-8c23-79205921be3a")
+	)
+	(pad "3" smd rect
+		(at 2.1 2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "51abacd8-8dec-4acb-90fa-d3fab235080b")
+	)
+	(pad "4" smd rect
+		(at 2.1 -2.54)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0419b11b-848b-43c3-835e-49afff5a237e")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "432c1c2c-c8ca-4ed4-b4cb-44ccf830bc61")
+		(name "Keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.8 -1.2) (xy 1.8 -1.2) (xy 1.8 1.2) (xy -1.8 1.2)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Attila/DFN-4-7x5mm_P4.2mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
