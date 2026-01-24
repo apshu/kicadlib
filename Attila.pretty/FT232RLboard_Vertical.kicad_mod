@@ -1,0 +1,183 @@
+(footprint "FT232RLboard_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FT232 Breakout board horizontal")
+	(property "Reference" "REF**"
+		(at -3.175 6.35 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c98310d4-28f0-4224-9629-1d4b3a4a0b1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "601f8283-a829-4706-b6a3-34aa169cddce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c80534ea-191e-43e5-bd85-1ac9d80d6620")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "FT232 Breakout board horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "101650fd-5154-4ede-ad27-1172ccc9a6b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.27 2.54)
+		(end 8.255 2.54)
+		(stroke
+			(width 0.15)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "93751e6a-3329-4810-a97d-2d68b0a60081")
+	)
+	(fp_line
+		(start 8.255 2.54)
+		(end 8.255 10.16)
+		(stroke
+			(width 0.15)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "e35f1a44-661e-4fdd-a82d-ada757004844")
+	)
+	(fp_line
+		(start 8.255 10.16)
+		(end 1.27 10.16)
+		(stroke
+			(width 0.15)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "4389d939-3be0-4d21-88ca-0922db37019a")
+	)
+	(fp_rect
+		(start -5.104 -2.85)
+		(end 1.294 15.55)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c21da647-36ac-438a-9801-c5a9add6be4f")
+	)
+	(fp_poly
+		(pts
+			(xy -3.81 0.635) (xy -1.905 0) (xy -3.81 -0.635)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "393c6eb4-f483-426a-9a23-532cd95e84d9")
+	)
+	(fp_rect
+		(start -5.203292 -2.966765)
+		(end 1.42213 15.682571)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e357c88b-4206-4aaa-9293-c9bef44c69e5")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e2224bd3-20d2-435d-90e8-952f10f66767")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ebcacfde-6d24-434c-b57a-a81a2e7f9d27")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1c76bf4e-c68f-4a26-ae3d-f663a5ec6440")
+	)
+	(pad "4" thru_hole circle
+		(at 0 7.62 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a240820e-a05c-488f-8fa1-7fc630c5949e")
+	)
+	(pad "5" thru_hole circle
+		(at 0 10.16 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fc3a8ab-c11f-49dd-99df-bb923a1dad25")
+	)
+	(pad "6" thru_hole circle
+		(at 0 12.7 180)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e2dd356e-c439-4000-bdc5-0123bbb9ca90")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3RD_PARTY}/Attila.pretty/FTboard.step"
+		(offset
+			(xyz -2.87 0 4.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+)
