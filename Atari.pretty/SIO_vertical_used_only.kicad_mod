@@ -1806,7 +1806,7 @@
 		(uuid "2340acba-905b-427e-93b7-d6095ed89a1e")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/M91541/OneDrive - Microchip Technology Inc/Documents/KiCad/Custom libraries/Atari.pretty/SIO_vertical_used_only.step"
+	(model "${KICAD9_3RD_PARTY}/Atari.pretty/SIO_vertical_used_only.step"
 		(offset
 			(xyz 0 0 0)
 		)
