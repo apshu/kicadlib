@@ -559,7 +559,7 @@
 		(uuid "27dff194-c592-4492-8919-a38cd0df309c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Attila/Purple Pico.step"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/Purple Pico.step"
 		(offset
 			(xyz -1.27 0 2)
 		)
