@@ -1,5 +1,5 @@
 (footprint "RJ12_upright"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
@@ -550,7 +550,7 @@
 		(uuid "3698cf9b-3076-4cc6-a02e-3c4dd86f41f6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/RJ12_upright.step"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/RJ12_upright.step"
 		(offset
 			(xyz -2 2 0)
 		)
@@ -561,7 +561,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/RJ12_upright.wrl"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/RJ12_upright.wrl"
 		(offset
 			(xyz -2 2 0)
 		)

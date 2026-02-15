@@ -379,7 +379,7 @@
 		(uuid "60f6db18-30e9-4101-8493-69a06b5b3fba")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_MY_GIT_DIR}/Attila.pretty/0955012661.step"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/0955012661.step"
 		(offset
 			(xyz 3.2 -16.8 6)
 		)
