@@ -121,7 +121,7 @@
 		(uuid "2e25059c-90b9-4d63-805c-ee228acdf4e5")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\M91541\\OneDrive - Microchip Technology Inc\\Documents\\KiCad\\Custom libraries\\Attila.pretty\\Saru_Vertical_PCB.wrl"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/Saru_Vertical_PCB.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
