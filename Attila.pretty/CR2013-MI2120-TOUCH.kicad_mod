@@ -239,7 +239,7 @@
 		(uuid "f1e7d0a1-0f68-4838-9fda-9c753f768bec")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Attila/LCDPanel28.wrl"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/LCDPanel28.wrl"
 		(offset
 			(xyz -185.4 116.05 4.5)
 		)
