@@ -855,7 +855,7 @@
 		(uuid "fa477f51-e796-4065-b75a-08644ca03d7b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/c-350211-1-af-3d.step"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/c-350211-1-af-3d.step"
 		(offset
 			(xyz 7.6 0 10.3)
 		)
