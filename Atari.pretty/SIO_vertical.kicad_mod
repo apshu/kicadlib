@@ -1857,7 +1857,7 @@
 		(uuid "8712e190-9e71-455a-a3dc-e64bf744156e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Atari.pretty/SIO_vertical.step"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Atari.pretty/SIO_vertical.step"
 		(offset
 			(xyz 0 0 0)
 		)
