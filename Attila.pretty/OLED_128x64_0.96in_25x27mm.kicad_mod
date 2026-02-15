@@ -202,28 +202,28 @@
 		(at -10.5 2)
 		(size 3 3)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "e8e6e9bf-f086-4d6e-9794-b12262913930")
 	)
 	(pad "" np_thru_hole circle
 		(at -10.5 25)
 		(size 3 3)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "f4867f39-ebfe-4eee-af16-c8fb032fa305")
 	)
 	(pad "" np_thru_hole circle
 		(at 10.5 2)
 		(size 3 3)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "17b729a0-07af-49c0-b7dd-936efd5147f3")
 	)
 	(pad "" np_thru_hole circle
 		(at 10.5 25)
 		(size 3 3)
 		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "48690dd6-d436-40bb-9f26-c05519fd2d38")
 	)
 	(pad "1" thru_hole rect
@@ -259,7 +259,7 @@
 		(uuid "c735eb81-5a20-43a3-8cc0-94148d7d5b42")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/Attila/OSSD-OLED-0.96-128x64.igs"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/OSSD-OLED-0.96-128x64.igs"
 		(offset
 			(xyz 0 -13.5 5)
 		)
