@@ -579,19 +579,7 @@
 		(uuid "55680697-a858-4ec1-b05c-0dd8f534b179")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/heatsink_40x124x35_22-00-05.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/heatsink_40x124x35_22-00-05.wrl"
-		(hide yes)
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/heatsink_40x124x35_22-00-05.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

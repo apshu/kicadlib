@@ -251,19 +251,7 @@
 		(uuid "ddc4d8d4-2be1-49f2-835a-8d02bdefc266")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/SolarCable_short.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/SolarCable_short.step"
-		(hide yes)
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/SolarCable_short.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
