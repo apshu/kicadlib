@@ -885,7 +885,7 @@
 		(uuid "ed5ef883-e5b1-4cd0-a6eb-66361989555d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Attila/Micromite44.step"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/Micromite44.step"
 		(offset
 			(xyz 0 0 2.6)
 		)
