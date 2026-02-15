@@ -169,7 +169,7 @@
 		(uuid "e2dd356e-c439-4000-bdc5-0123bbb9ca90")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/FTboard.step"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/FTboard.step"
 		(offset
 			(xyz -2.87 0 4.2)
 		)

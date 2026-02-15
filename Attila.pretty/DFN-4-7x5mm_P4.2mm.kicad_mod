@@ -222,7 +222,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/DFN-4-7x5mm_P4.2mm.step"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/DFN-4-7x5mm_P4.2mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

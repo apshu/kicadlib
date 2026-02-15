@@ -167,7 +167,7 @@
 		(uuid "534efa6d-96c3-49e1-91be-2ea1a6d0892e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/0451001.MRL.stp"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/0451001.MRL.stp"
 		(offset
 			(xyz 0 0 0)
 		)
