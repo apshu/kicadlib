@@ -129,18 +129,7 @@
 		(uuid "c94cac7e-d0ca-4dbf-9227-c1290fc6637c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/PLT133_T.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/PLT133_T.wrl"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/PLT133_T.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
