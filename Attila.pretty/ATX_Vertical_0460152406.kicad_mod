@@ -1707,7 +1707,7 @@
 		(uuid "9270bc2f-c630-4b6f-8426-4b7280f22237")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/ATX_Vertical_0460152406.step"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/ATX_Vertical_0460152406.step"
 		(offset
 			(xyz 23.1 -2.5 0)
 		)

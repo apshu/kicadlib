@@ -189,7 +189,7 @@
 		(uuid "8dfcec70-ab6f-4844-a976-c88fa7e4e8b0")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3RD_PARTY}/Attila.pretty/CDFN-4-5x3.2mm_P2.54mm.step"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/CDFN-4-5x3.2mm_P2.54mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
