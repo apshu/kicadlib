@@ -217,7 +217,7 @@
 		(uuid "28df050e-70ad-45e8-9562-cc1114aaef23")
 	)
 	(embedded_fonts no)
-	(model "${KICAD8_3DMODEL_DIR}/usb3.stp"
+	(model "${KICAD_CUSTOMLIBS_DIR}/Attila.pretty/usb3.stp"
 		(offset
 			(xyz 0 3.3 4)
 		)
